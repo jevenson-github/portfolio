@@ -50,7 +50,7 @@ nav ul a:hover{
 .logo{
     font-size: 2em;
     color: white;
-    font-weight: 800;
+    font-weight: 300;
     opacity: 0.8;
     transition: 0.2s ease-in-out;
 }
@@ -374,7 +374,7 @@ form input:focus{
 
     #menu{
         display: block;
-        color: red;
+        color: rgb(255, 255, 255);
     }
 
     .links{
@@ -425,6 +425,11 @@ form input:focus{
     #about ul{
         font-size: 1em;
     }
+
+    #services .services-container{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media(max-width:768px)
@@ -448,7 +453,8 @@ form input:focus{
         font-size: 3em;
     }
     #services .services-container{
-        display: none;
+        display: flex;
+        flex-direction: column;
     }
 
     #contact .header{
