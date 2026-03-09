@@ -104,8 +104,8 @@ section{
     color:white;
 }
 #home > img{
-    width: 220px;
-    height: 250px;
+    /* width: 220px;
+    height: 250px; */
     margin-top: 3em;
     border-radius: 16px;
 }
@@ -408,7 +408,7 @@ form input:focus{
     }
 
     #home img{
-        width: 24vw;
+        width: 50vw;
     }
 
     #about{
@@ -416,7 +416,7 @@ form input:focus{
     }
 
     #about img{
-        width: 32vw;
+        width: 50vw;
     }
 
     #about h1{
@@ -445,6 +445,10 @@ form input:focus{
         width: 32vw;
     }
 
+    #about img {
+        width: 200px;
+        height: 200px;
+    }
     #about .skills{
         gap: 3em;
     }
